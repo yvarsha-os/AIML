@@ -2,5 +2,171 @@
 
 python lab-1
 
-the original file in  https://colab.research.google.com/drive/1wi_kRUepo36ENVEhzhfDgnJpl4Rj3Lxz
+the original file in https://colab.research.google.com/drive/1wi_kRUepo36ENVEhzhfDgnJpl4Rj3Lxz#scrollTo=ZD_P7_px5B2O
 
+#Task1
+print("Hello, World!")
+
+#Task2
+x = 5
+y = "John"
+print(x)
+print(y)
+
+#Task3
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+print(x,y,z)
+
+#Task4
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+
+#Task5
+x = "John"
+# is the same as
+x = 'John'
+# x=2
+print(x)
+
+#Task6
+a = 4
+A = "Sally"
+#A will not overwrite a
+
+#Task5
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#Task6
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#Task7
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#Task8
+#list
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(fruits)
+
+#Task9
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+thistuple = ("apple", "banana", "cherry", "apple", "cherry", 3, 5, 6, 'grapes')
+print(thistuple)
+
+#Task10
+thisset = {"banana", "apple", "cherry", False, 1, 2}
+
+print(thisset)
+
+#Task11
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+#Task12
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+#Task13
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+#Task14
+x = 5
+y = "John"
+print(x, y)
+
+#Task15
+import sys
+
+print(sys.version)
+
+#Task16
+if 5 > 2:
+  print("Five is greater than two!")
+
+#Task17
+if 5 > 2:
+ print("Five is greater than two!")
+ if 5 > 1:
+        print("Five is greater than two!")
+
+#Task18
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+
+#Task19
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+#Task20
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+#Task21
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+#Task22
+for x in range(7):
+  print(x)
+else:
+  print("Finally finished!")
+
+#Task23
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+#Task24
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
